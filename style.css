@@ -1,0 +1,88 @@
+
+.body {
+  font-family: 'Arial', 'Montserrat', sans-serif;
+  background-image: url("/images/background_1.png");
+  background-position:left top;
+  background-repeat: no-repeat;
+  background-size: 790px 697px;
+}
+
+
+.title {color:#515076;
+font-size: 70px;
+text-align: center;
+font-weight: 400;
+line-height: 78px;
+vertical-align: middle;
+}
+
+
+.product-item {
+  background: #F7F7FA;
+  border: #515076 1px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 340px;
+  margin: 30px;
+  padding: 25px;
+  display: inline-block;
+  list-style: none;
+  color: #515076;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+.img {
+  display: block;
+}
+
+
+.product-type {
+  display: inline-block;
+  margin-top: 20px;
+color: #A5A3B9;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
+.product-name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+
+.description {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.ingredients {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+
+.price {
+  display: inline-block;
+  margin-top:20px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 0px 150px 0px 0px;
+}
+
+
+.cost {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
