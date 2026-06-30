@@ -1,0 +1,25 @@
+
+.catalog {
+  background-image: url("/images/background_1.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 790px 697px;
+}
+
+.catalog__title {
+  color:#515076;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 220px;
+  margin: 0px;
+}
+
+.catalog__product-list {
+  margin: 0px;
+  padding: 110px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+}
