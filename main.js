@@ -7,11 +7,11 @@ changeCardColorButton.addEventListener('click', () => {
 
 const cards = document.querySelectorAll('.card');
 const changeAllCardsColorButton = document.querySelector('.change-all-cards-color-button');
-const VioletColor= 'violet';
+const violetColor= 'violet';
 
 changeAllCardsColorButton.addEventListener('click', () => {
   cards.forEach((card) => {
-    card.style.backgroundColor = VioletColor;
+    card.style.backgroundColor = violetColor;
   });
 });
 
@@ -22,21 +22,14 @@ openGoogleButton.addEventListener('click', openGoogle);
 function openGoogle () {
   const answer = confirm('Do you want to open Google?');
   if (answer === true) {
-    window.open('https://www.google.com');
-  }
-  else {return;}
+    window.open('https://www.google.com')}
 }
 
-const consoleLogButton = document.querySelector('.catalog__title');
+const catalogTitle = document.getElementsByTagName('h1')[0];
 
-consoleLogButton.addEventListener('click', () => {
-  outputConsolelog('Выбери свой продукт');
+catalogTitle.addEventListener('mouseover', (event) => {
+  console.log(event.target.textContent);
 });
-
-function outputConsolelog(message) {
-  alert(message);
-  console.log(message);
-}
 
 const switchColorButton = document.querySelector('.switch-color-button');
 
