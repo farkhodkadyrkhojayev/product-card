@@ -22,7 +22,8 @@ openGoogleButton.addEventListener('click', openGoogle);
 function openGoogle () {
   const answer = confirm('Do you want to open Google?');
   if (answer === true) {
-    window.open('https://www.google.com')}
+    window.open('https://www.google.com');
+  }
 }
 
 const catalogTitle = document.getElementsByTagName('h1')[0];
