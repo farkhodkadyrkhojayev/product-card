@@ -8,15 +8,20 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/catalog.css">
     <link rel="stylesheet" href="style/card.css">
+    <link rel="stylesheet" href="style/button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body class="main">
+
     <div class="catalog">
         <h1 class="catalog__title">Выбери свой продукт</h1>
-
+                <button class="change-card-color-button">Изменить цвет</button>
+                <button class="change-all-cards-color-button">Изменить все цвета</button>
+                <button class="open-google-button">Открыть Google</button>
+                <button class="switch-color-button">Переключить цвет</button>
         <ul class="catalog__product-list product-list">
             <li class="product-list__card card">
                 <img src="images/photo_1.jpg" alt="товар увлажняющий мусс" class="card__img"/>
@@ -30,11 +35,14 @@
                     <li>активные натуральные компоненты</li>
                     <li>витамины C,A,PP,B и E</li>
                     <li>солнцезащитные компоненты</li>
+                    <li>Пантенол</li>
+                    <li>Экстракт алоэ вера</li>
                 </ul>
                 <div class="card__price">
                     <b>Цена:</b>
                     <span>2 750 ₽</span>
                 </div>
+                <button class="card__button-buy button-buy">+ Купить</button>
             </li>
 
             <li class="product-list__card card">
@@ -54,6 +62,7 @@
                     <b>Цена:</b>
                     <span>3 500 ₽</span>
                 </div>
+                <button class="card__button-buy button-buy">+ Купить</button>
             </li>
 
             <li class="product-list__card card">
@@ -67,12 +76,12 @@
                 <ul class="card__ingredients-list">
                     <li>минералы</li>
                     <li>витамины C,A,PP,B и E</li>
-                    <li>солнцезащитные компоненты</li>
                 </ul>
                 <div class="card__price">
                     <b>Цена:</b>
                     <span>1 650 ₽</span>
                 </div>
+                <button class="card__button-buy button-buy">+ Купить</button>
             </li>
 
             <li class="product-list__card card">
@@ -92,6 +101,7 @@
                     <b>Цена:</b>
                     <span>4 750 ₽</span>
                 </div>
+                <button class="card__button-buy button-buy">+ Купить</button>
             </li>
 
             <li class="product-list__card card">
@@ -111,8 +121,10 @@
                     <b>Цена:</b>
                     <span>7 520 ₽</span>
                 </div>
+                <button class="card__button-buy button-buy">+ Купить</button>
             </li>
         </ul>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
